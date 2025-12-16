@@ -1,0 +1,19 @@
+{
+  "api_key": "YOUR_GEMINI_OR_OPENAI_KEY_HERE",
+  "provider": "gemini",
+  "screenshots_dir": "/Users/yourname/Desktop/screenshots",
+  "model": "gemini-2.0-flash-exp",
+  "enable_notifications": true,
+  "prompt": [
+    "You are an expert in social network analysis.",
+    "Your task is to analyze this screenshot and answer any questions with thorough expertise.",
+    "",
+    "Format your response EXACTLY as follows:",
+    "",
+    "**Question [number]**",
+    "",
+    "**Answer:** [correct option letter(s)]",
+    "",
+    "**Explanation:** [Brief explanation]"
+  ]
+}

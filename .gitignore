@@ -1,0 +1,24 @@
+# Secrets
+config.json
+.env
+
+# Runtime data
+answers.md
+status.json
+_processed/
+screenshots/
+screenshots-for-now/
+
+# Python
+venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# System
+.DS_Store
+
+# Images
+*.png
+*.jpg
+*.jpeg
