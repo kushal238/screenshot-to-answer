@@ -11,7 +11,6 @@ Automatically extracts questions from screenshots and answers them using Google 
 5. **Archives** processed screenshots to `_processed/` folder
 6. **Notifies** you (optional) when each answer is ready
 
-Perfect for processing ~35 questions rapidly without touching any files!
 
 ## 🚀 Setup
 
