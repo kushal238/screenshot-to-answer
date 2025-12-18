@@ -12,7 +12,7 @@ Automatically extracts questions from screenshots and answers them using Google 
 6. **Notifies** you (optional) when each answer is ready
 
 
-## 🚀 Setup
+## Setup
 
 ### 1. Install Python Dependencies
 
@@ -80,7 +80,7 @@ Take all 35 screenshots back-to-back. They'll be queued and processed one at a t
 - `answers.md` - Your answers appear here
 - `_processed/` - Archived screenshots
 
-## ⚙️ Configuration Options
+## Configuration Options
 
 Edit `config.json` to customize:
 
@@ -128,7 +128,7 @@ killall SystemUIServer
 
 Then update `screenshots_dir` in `config.json` to match.
 
-## 💡 Tips
+## Tips
 
 1. **Watch in real-time**: Open `answers.md` in VS Code or any editor with auto-refresh
 2. **Use `tail -f`**: Run `tail -f answers.md` in a terminal to see answers stream in
@@ -184,18 +184,9 @@ Answer: Quantum entanglement is a physical phenomenon where pairs of particles..
 ---
 ```
 
-## 🚦 Architecture
+## Architecture
 
 - **Single-threaded queue**: Processes one screenshot at a time (prevents race conditions)
 - **Archive system**: Moves processed screenshots to `_processed/` (prevents re-processing)
 - **Append-only**: Safe for watching with `tail -f` or live editors
 - **Error handling**: Continues processing even if one screenshot fails
-
-## 📄 License
-
-MIT - Do whatever you want with it!
-
-## 🤝 Contributing
-
-Feel free to open issues or PRs if you want to improve this!
-
