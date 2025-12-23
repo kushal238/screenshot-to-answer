@@ -46,7 +46,7 @@ On first run, a `config.json` will be created. Edit it to add your API key:
 python watcher.py
 ```
 
-## 📖 Usage
+## Usage
 
 ### Watch Live Answers
 
@@ -136,7 +136,7 @@ Then update `screenshots_dir` in `config.json` to match.
 4. **Custom prompts**: Edit the `prompt` in `config.json` to change how Gemini responds
 5. **Batch processing**: Take all your screenshots first, then start the watcher
 
-## 🎬 Quick Start Example
+## Quick Start Example
 
 ```bash
 # 1. Install
