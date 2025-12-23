@@ -2,7 +2,7 @@
 
 Automatically extracts questions from screenshots and answers them using Google Gemini, appending results to a markdown file in real-time.
 
-## 🎯 What It Does
+## What It Does
 
 1. **Watches** your Desktop (or custom folder) for new screenshots
 2. **Extracts** questions from the screenshot using Gemini Vision
@@ -73,7 +73,7 @@ The agent will automatically:
 
 Take all 35 screenshots back-to-back. They'll be queued and processed one at a time (preventing overlapping writes and out-of-order answers).
 
-## 📁 Files
+## Files
 
 - `watcher.py` - Main script
 - `config.json` - Configuration (API key, paths, etc.)
@@ -99,7 +99,7 @@ Edit `config.json` to customize:
 - `gemini-1.5-flash` - Fast, slightly older
 - `gemini-1.5-pro` - Capable, slower
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### "Please add your Gemini API key"
 
@@ -156,7 +156,7 @@ tail -f answers.md
 # They'll be processed automatically
 ```
 
-## 📝 Example Output
+## Example Output
 
 Your `answers.md` will look like:
 
